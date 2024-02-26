@@ -80,7 +80,8 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import Loader from './common/Loader';
 import routes from './routes/index.jsx';
-import RequireAuth from './Private/Requiredau';
+
+const RequireAuth = lazy(() => import('./Private/Requiredau.jsx'));
 
 const DefaultLayout = lazy(() => import('./layout/DefaultLayout'));
 const SignIn = lazy(() => import('./pages/Authentication/SignIn.jsx'));
