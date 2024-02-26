@@ -157,7 +157,7 @@ const SignIn = () => {
       const sessionget = sessionStorage.getItem('newLoginData');
       if (sessionget) {
         navigate('/dashboard');
-        window.location.reload();
+        // window.location.reload();
       } else {
         navigate('/login');
       }
