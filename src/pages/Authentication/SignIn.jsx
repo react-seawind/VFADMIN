@@ -151,6 +151,7 @@ const SignIn = () => {
       //   window.location.reload();
       // } else {
       //   navigate('/');
+
       // }
 
       sessionStorage.setItem('newLoginData', JSON.stringify(values));
