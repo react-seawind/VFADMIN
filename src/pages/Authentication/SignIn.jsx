@@ -153,14 +153,14 @@ const SignIn = () => {
       //   navigate('/');
       // }
 
-      sessionStorage.setItem('newLoginData', JSON.stringify(values));
-      const sessionget = sessionStorage.getItem('newLoginData');
-      if (sessionget) {
-        navigate('/dashboard');
-        // window.location.reload();
-      } else {
-        navigate('/login');
-      }
+      // sessionStorage.setItem('newLoginData', JSON.stringify(values));
+      // const sessionget = sessionStorage.getItem('newLoginData');
+      // if (sessionget) {
+      navigate('/dashboard');
+      // window.location.reload();
+      // } else {
+      //   navigate('/login');
+      // }
     },
   });
 
